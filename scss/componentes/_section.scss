@@ -1,0 +1,27 @@
+section{
+    div{
+        i{
+            font-size: nth($sizepx, 4);
+            margin-right: nth($sizepx, 2);
+            color: lighten($color-2, 20%);
+            @media (max-width: 576px){
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+section{
+    div{
+        div{
+            p{
+                font-size: 15px;
+                color: lighten($color-2, 20%);
+                @media (max-width: 576px){
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
+

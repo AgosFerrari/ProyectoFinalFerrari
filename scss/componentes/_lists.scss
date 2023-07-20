@@ -1,0 +1,51 @@
+.buzo_x h1{
+    @extend %titulos;
+}
+
+.buzo_x h2{
+    @extend %titulos;
+}
+
+.buzo_x h4{
+    @extend %titulos;
+    color: lighten($color-2, 40%);
+}
+
+.buzo_x h5{
+    @extend %titulos;
+}
+
+.lista_talles{
+    @extend %lists;
+    li{
+        border: lighten($color-2, 40%) solid 1px;
+        justify-content: space-evenly;
+        padding: 5px 30px;
+    }
+}
+
+.lista_cantidad{
+    @extend %lists;
+}
+
+.detalles{
+    @media (max-width: 463px){
+        font-size: smaller;
+        ul{
+            @media (max-width: 463px){
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+.politicas{
+    @media (max-width: 463px){
+        font-size: smaller;
+    }
+}
+        
+        
+        
+        
+   

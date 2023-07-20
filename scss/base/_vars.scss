@@ -1,0 +1,15 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    &:hover{
+        color: rgba(0, 0, 0, 0.3);
+    }
+}

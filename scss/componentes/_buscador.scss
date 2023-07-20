@@ -1,0 +1,29 @@
+.header{
+    @media (max-width: 672px){
+        font-size: 14px;
+    }
+    div{
+        form{
+            input{
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: solid 1px darken($color-1, 30%);
+                height: 36px;
+                padding-left: 5px;
+                @media (max-width: 672px){
+                    max-width: 90px;
+                }
+                &:focus{
+                    outline: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: solid 1px darken($color-1, 30%);
+                    height: 36px;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}

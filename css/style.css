@@ -1,0 +1,271 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.lista_cantidad, .lista_talles {
+  padding: 0;
+  justify-content: space-between;
+}
+
+.buzo_x h5, .buzo_x h4, .buzo_x h2, .buzo_x h1 {
+  font-weight: 300;
+}
+
+.imghover:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body header p {
+  color: white;
+  background-color: rgb(212, 212, 212);
+  text-align: center;
+  padding: 5px;
+  font-weight: 300;
+}
+@media (max-width: 700px) {
+  body header p {
+    font-size: 12px;
+  }
+}
+
+header div nav ul li {
+  margin-left: 10px;
+}
+
+header div div ul li {
+  margin-right: 10px;
+}
+header div div ul li i {
+  font-size: 20px;
+}
+@media (max-width: 576px) {
+  header div div ul li i {
+    font-size: 22px;
+  }
+}
+
+.navegacion ul li {
+  margin: 0px 10px;
+}
+@media (max-width: 576px) {
+  .navegacion ul li {
+    font-size: 12px;
+    margin: 0px 5px;
+  }
+}
+
+.texto {
+  display: inline-block;
+  margin-right: 10px;
+}
+@media (max-width: 672px) {
+  .texto {
+    display: none;
+  }
+}
+
+@media (max-width: 672px) {
+  .header {
+    font-size: 14px;
+  }
+}
+.header div form input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px #9e8c8c;
+  height: 36px;
+  padding-left: 5px;
+}
+@media (max-width: 672px) {
+  .header div form input {
+    max-width: 90px;
+  }
+}
+.header div form input:focus {
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px #9e8c8c;
+  height: 36px;
+  padding-left: 5px;
+}
+
+.boton p {
+  background-color: rgb(228, 223, 223);
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 3px;
+}
+.boton p:hover {
+  background-color: #cdc3c3;
+  transition: all 0.3s;
+}
+
+h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.filtro i {
+  font-size: 20px;
+}
+
+@media (max-width: 575px) {
+  .productos {
+    justify-content: center;
+  }
+  .productos li h1 a {
+    margin-left: 15px;
+    font-size: 20px;
+  }
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #979797;
+}
+
+.formulario input, .formulario textarea {
+  border: solid 1px #e4e4e4;
+  border-radius: 3px;
+  padding: 5px;
+}
+.formulario input:focus, .formulario textarea:focus {
+  outline: none;
+  border: solid 1px #9e8c8c;
+  padding-left: 5px;
+}
+
+.boton-enviar {
+  display: flex;
+  justify-content: center;
+}
+
+#boton-enviar {
+  background-color: rgb(228, 223, 223);
+  border: rgb(228, 223, 223);
+  border-radius: 3px;
+  height: 36px;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.buzo_x h4 {
+  color: #cacaca;
+}
+
+.lista_talles li {
+  border: #cacaca solid 1px;
+  justify-content: space-evenly;
+  padding: 5px 30px;
+}
+
+@media (max-width: 463px) {
+  .detalles {
+    font-size: smaller;
+  }
+}
+@media (max-width: 463px) and (max-width: 463px) {
+  .detalles ul {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 463px) {
+  .politicas {
+    font-size: smaller;
+  }
+}
+
+nav div ul li a {
+  font-style: italic;
+}
+
+section div i {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #979797;
+}
+@media (max-width: 576px) {
+  section div i {
+    font-size: 22px;
+  }
+}
+
+section div div p {
+  font-size: 15px;
+  color: #979797;
+}
+@media (max-width: 576px) {
+  section div div p {
+    font-size: 11px;
+  }
+}
+
+footer {
+  background-color: rgb(228, 223, 223);
+}
+footer div div ul li {
+  padding-right: 20px;
+}
+footer div div ul li i {
+  font-size: 20px;
+}
+
+.boton-footer {
+  background-color: #b5a8a8;
+  border: rgb(228, 223, 223);
+}
+.boton-footer:hover {
+  background-color: #9e8c8c;
+  border: rgb(228, 223, 223);
+}
+
+footer div form input {
+  background-color: rgb(228, 223, 223);
+  border: solid 1px #9e8c8c;
+  border-radius: 3px;
+  height: 36px;
+  padding-left: 5px;
+}
+@media (max-width: 610px) {
+  footer div form input {
+    width: 170px;
+  }
+}
+footer div form input:focus {
+  outline: none;
+  border: solid 1px #6a5a5a;
+  height: 36px;
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

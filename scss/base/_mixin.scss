@@ -1,0 +1,4 @@
+@mixin titulos($fw, $mt){
+    font-weight: $fw;
+    margin-top: $mt;
+}

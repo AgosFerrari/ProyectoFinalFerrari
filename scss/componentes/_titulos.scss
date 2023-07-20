@@ -1,0 +1,25 @@
+h3{
+    @include titulos(nth($size, 2), nth($sizepx, 1));
+}
+
+.filtro{
+    i{
+        font-size: 20px;
+    }
+}
+
+.productos{
+    @media (max-width: 575px){
+        justify-content: center;
+        li{
+            h1{
+                a{
+                    margin-left: 15px;
+                    font-size: 20px;
+                    
+                }
+            }
+        }
+    }
+}
+
